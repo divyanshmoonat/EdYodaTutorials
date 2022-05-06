@@ -1,0 +1,19 @@
+Div : This is just an empty box/container which wraps few HTML elements. <div>....</div>
+
+Table : A collection of rows and columns
+Rows : Collection of horizontal cells (Left to Right or vice versa)
+Columns : Collection of vertical cells (Top to bottom or vice versa)
+<table>....</table>
+
+Table : <table>
+    HEAD : <thead>
+        Row : <tr> = Table Row
+            Table Cells/ Table Data : <td> = Table Data 
+    BODY : <tbody>
+        Row : <tr> = Table Row
+            Table Cells/ Table Data : <td> = Table Data 
+
+
+Table Spans :  Attributes of <td> and <th>
+    Row Spans : Merging of horizontal cells
+    Colum Spans : Merging of vertical cells
