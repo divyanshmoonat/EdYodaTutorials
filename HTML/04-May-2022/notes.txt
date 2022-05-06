@@ -1,0 +1,28 @@
+HTML Files : 
+1. Head
+2. Body
+
+
+Tags : 
+<>
+<html>
+<head>
+<body>
+
+SEO : Search Engine Optmization : <meta>
+
+Type of Tags : 
+Container Tags : Tags which has corresponding closing tag <html>...</html>, <head>...</head>
+Empty Tags : Tags which does not have a closing. <meta> <link> <img>
+
+
+Link Tag : We'll use it for loading CSS (Cascading Style Sheet) Files
+Script Tag : We'll use it for loading JS (JavaScript) files
+
+
+Heading : 6 heading tags in HTML
+<h1>....<h6>
+
+Image Tag : Used to load images on our website <img>
+
+List : 2 types : Ordered List <ol>, Unordered List <ul>
