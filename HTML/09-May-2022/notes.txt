@@ -1,0 +1,16 @@
+Block vs Inline elements ?
+Block : Which always starts from a new line
+    Eg : <p>...</p>, <div>, <h1>-<h6>, <ol>, <ul>
+Inline : Which always starts in line.
+    Eg : <span>...</span>
+
+ID : Identifier (Attribute)
+An ID is always unique to the element i.e it can not repeat or it is unique
+#(Hash) is used to link to an ID
+
+
+Hover : Putting your cursor on an element is called hovering.
+
+Class : Attribute applicable on all HTML tags used for styling purposes.
+
+Class is defined by .(dot) operator in CSS
