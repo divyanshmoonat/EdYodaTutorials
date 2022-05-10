@@ -1,0 +1,38 @@
+HTML5?
+Version : 1.0 ..... 5.0
+
+
+Doctype : Document Type  => It tells the browser about the version of HTML we are using
+E.g For HTML5 => <!DOCTYPE html>
+
+
+New Feautres Introduced in HTML5
+Semantic Tags : Self explanatory tags. <article>...</article>, <header>...</header>, <footer></footer>
+E.g : 
+<article>
+<aside>
+<details>
+<main>
+<figcaption>
+<figure>
+<footer>
+<header>
+<nav>
+<section>
+<summary>
+
+
+Inut types : 
+date
+color
+datetime
+tel
+email
+number
+
+
+Local Storage API : It is a storage available on every web browser, used to store data E.g User preference of view list/grid view.
+GeoLocation API : It is used to fetch the user's current location E.g To show nearby stores to the user like Dominos etc
+Drag and Drop API : To upload files on a webpage with the help of drag and drop of your cursor/mouse
+
+API - Application Programming Interface
