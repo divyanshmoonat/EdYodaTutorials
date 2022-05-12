@@ -1,0 +1,4 @@
+Forms? : A way to get information / data from any user over internet.
+<form>...</form>
+
+Input Fields : HTML Tags which creates some box on screen which takes user's input.
