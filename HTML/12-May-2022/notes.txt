@@ -1,0 +1,12 @@
+
+HTML : Used to create ONLY THE STRCUTRE OF A PAGE.
+CSS : Used to design or style a page.
+JavaScript : Used to ADD FUNCTIONALITITES ON A WEB PAGE.
+
+
+
+Car?
+Carpet?
+
+Java?
+JavaScript?

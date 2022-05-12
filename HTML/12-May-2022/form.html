@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Forms</title>
+        <style>
+            input {
+                margin-bottom: 15px;
+            }
+
+            body {
+                background-color: aqua;
+            }
+            .reg-form {
+              background-color: white;
+              width: 300px;
+              padding: 20px;
+                margin-left: auto;
+                margin-right: auto;
+            }
+
+            .full-width {
+                width: 280px;
+            }
+
+            .form-heading {
+                text-align: center;
+            }
+        </style>
+    </head>
+    <body>
+        <h1 class="form-heading">Registration Form</h1>
+        <form class="reg-form" method="get" >
+             
+            <label for="username">Name</label> <br>
+            <input id="username" name="name" minlength="4" maxlength="8" placeholder="Eg John Doe" class="full-width" type="text" required> <br>
+
+
+            Email <br> <input name="email" placeholder="john@example.com" class="full-width" type="email" required> <br>
+            Password<br> <input name="password" class="full-width" type="password"><br>
+            Phone <br><input name="phone" placeholder="9876543210" class="full-width" type="tel"> <br> 
+            Photo <br> <input type="file"><br>
+            DOB <br><input name="dob" class="full-width" type="date" min="2021-01-15" max="2022-12-25">  <br>
+            Select month <br> <input type="month"> <br>
+            Select Week <br> <input type="week"> <br>
+            Gender <br>
+
+            <input id="male" value="m" name="gender" type="radio"> 
+            <label for="male" >Male</label>
+
+            <input id="female" value="f" name="gender" type="radio">
+            <label for="female" >Female</label> 
+
+            
+            <input id="others" name="gender" type="radio">
+            <label for="others" >Others</label>
+             <br>
+
+            Select your interests (Hobbies) <br>
+            <input value="politics" name="hobbies" type="checkbox">Politics</input>
+            <input value="movies" name="hobbies" type="checkbox">Movies</input>
+            <input value="sports" name="hobbies" type="checkbox">Sports</input> <br>
+
+
+            To which country do you belong? <br>
+
+            <input list="countries" name="country">
+            <datalist id="countries">
+                <option value="india"></option>
+                <option value="australia"></option>
+                <option value="usa"></option>
+                <option value="canada"></option>
+                <option value="russia"></option>
+                <option value="ukraine"></option>
+                <option value="uae"></option>
+                <option value="singapore"></option>
+                <option value="japan"></option>
+                <option value="pakistan"></option>
+                <option value="sri lanka"></option>
+                <option value="england"></option>
+                <option value="qatar"></option>
+                <option value="germany"></option>
+                <option value="new zeland"></option>
+                <option value="netherland"></option>
+                <option value="switzeland"></option>
+                <option value="zimbabwe"></option>
+                <option value="france"></option>
+                <option value="spain"></option>
+                <option value="iran"></option>
+                <option value="austria"></option>
+                <option value="romania"></option>
+
+            </datalist>
+            <br>
+
+            Range <input name="rating" type="range" min="1" max="5">
+
+
+            Tell us about yourself in few words <br> <textarea name="introduction"  class="full-width"></textarea> <br>
+            <input type="checkbox"> I agree to the terms and conditions<br>
+            <input type="reset">
+            <input type="submit">
+        </form>
+    </body>
+</html>
