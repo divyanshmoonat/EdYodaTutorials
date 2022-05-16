@@ -1,0 +1,21 @@
+Multimedia?
+
+Video : <video>...</video>
+    Attributes : 
+        controls => Gives play/pause, sound (audio level), Full screen, download, picture in picture mode, playback speed
+        autoplay => Automatically plays video when webpage is opened
+        loop => Starts palying the video in infinite mode
+
+Audio : <audio>...</audio>
+        controls => Gives play/pause, sound (audio level), Full screen, download, picture in picture mode, playback speed
+        autoplay => Automatically plays video when webpage is opened
+        loop => Starts palying the video in infinite mode
+
+
+Comments in HTML : <!-- My comments -->
+
+
+SVG (Scallable Vector Graphics) : Type of image
+
+
+IFrames : These are frames/container to add any external item on our web page.
