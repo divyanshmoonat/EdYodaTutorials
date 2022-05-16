@@ -1,0 +1,27 @@
+.styled-para {
+    color: red;
+    letter-spacing: 3px;
+    word-spacing: 5px;
+    font-family: 'Roboto Mono', monospace;
+}
+
+.heading {
+    text-align: left;
+    text-transform: capitalize; /*First letter of every word is capital*/
+    /* text-transform: uppercase; All capital letters */ 
+    /* text-transform: lowercase; All small letter */
+
+
+    text-decoration: line-through; /* Cuts the text in line*/
+    /* text-decoration: underline; Creates underline */
+    /* text-decoration: overline; Creates overline (Opposite of underline) */
+
+    font-weight: bold; /* It defines the boldnes (thickness) of the font 100..900 or bold*/
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+/* font-style
+ */

@@ -1,0 +1,34 @@
+p {
+    color:red;
+    background-color: black;
+}
+
+h1 {
+    color: blue;
+}
+
+
+body {
+    background-color: green;
+}
+
+#head2 {
+    background-color: aqua;
+}
+
+#text-span {
+    color:chocolate;
+}
+
+.sub-heading {
+    color: yellow;
+}
+
+.color-blue {
+    color: blue;
+}
+
+.bg-yellow {
+    background-color: yellow;
+}
+

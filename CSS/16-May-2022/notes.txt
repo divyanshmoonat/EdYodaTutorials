@@ -1,0 +1,21 @@
+CSS? => Cascading Style Sheet
+It is used to style a web page.
+Styling : To give colors, set alignments, set fonts and other properties
+
+
+Ways to add CSS :
+    Inline : With the help of style attribute inside any tag. <p style="<CSS PROPERTIES>">...</p>
+    Internal : With the help of <style>....</style>
+    External : With the help of link tag <link>
+
+Selectors : It is a symbol used to select any part of a webpage in CSS ---OR--- it is a symbol which helps us in styling the webpage, we write it in css
+
+3 Types of selectors : 
+    Tag : Tag name : Used when we have to apply styles to all the tags with sane name
+    Class : . (dot) : Used when we have to apply styles to only some of the tags
+    Id : # (hash) : Used when we have to apply the styles to only one of the tag
+
+Preference : Inline > Internal > External
+Selectors : Id > Classes
+
+To comment : Ctrl + /
