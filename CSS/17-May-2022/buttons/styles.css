@@ -1,0 +1,26 @@
+.active {
+    background-color: rgb(34, 147, 253);
+    color: white;
+    width: 50px;
+    height: 30px;
+    /* border: 1px solid rgb(34, 147, 253); */
+    border: none;
+    border-radius: 10px;
+    margin: 20px;
+}
+
+.active:hover {
+    color: rgb(34, 147, 253);
+    background-color: white;
+    border: 1px solid rgb(34, 147, 253);
+    cursor: pointer;
+}
+
+.disabled {
+    border: none;
+    background-color: rgb(34, 147, 253);
+    color: white;
+    border-radius: 10px;
+    opacity: 0.4;
+    cursor: not-allowed;
+}

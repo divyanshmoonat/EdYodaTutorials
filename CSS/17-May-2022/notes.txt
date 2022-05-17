@@ -1,0 +1,20 @@
+Border => It consists of 3 things
+    border-style
+    border-width
+    border-color
+
+Margin : Gives space outside the element
+Padding : Gives space inside the element
+
+Border Radius (border-radius) : It is used to make borders curved
+
+Opacity : Set the transparency of an element
+
+Display :
+    block : Which occupies complete width of the screen
+    inline : It occupies less width (not 100%), depends on the content in it, WE CAN'T SET WIDTH AND HEIGHT AN AN INLINE ELEMENT
+    inline-block : It acts as display inline but allows us TO SET WIDTH AND HEIGHT
+    none : hides the element and removes the space from the screen
+Visibility : Controls the visibility of any element
+    visible
+    hidden : hides the element but keeps the space on the screen

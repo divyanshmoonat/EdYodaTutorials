@@ -1,0 +1,87 @@
+.card {
+    background-color: aliceblue;
+    /* ====BORDER PROPERTY STARTS==== */
+    /* border-style: solid; */
+    /* border-style: dashed; */
+    /* border-style: dotted;
+    border-width: 10px;
+    border-color: yellow; */
+
+    /* border: 10px dotted yellow; */
+
+    border: 10px solid black;
+    /* border: border-width border-style border-color */
+
+    /* border-top: 10px solid blue;
+    border-right: 5px solid green;
+    border-bottom: 10px dashed blue;
+    border-left: 5px dotted yellow; */
+    /* ====BORDER PROPERTY STARTS==== */
+
+
+    /* ====MARGIN PROPERTY STARTS==== */
+    /* margin-top: 40px;
+    margin-bottom: 40px;
+    margin-left: 30px;
+    margin-right: 30px; */
+
+    /* margin: 10px 20px 30px 20px; */
+    /* margin : top right bottom left */
+
+    /* margin: 10px 20px; */
+    /* margin : top & bottom left & right */
+
+    margin: 30px;
+    /* ====MARGIN PROPERTY ENDS==== */
+
+
+    /* ====PADDING PROPERTY STARTS==== */
+    /* padding-top: 40px;
+    padding-bottom: 40px;
+    padding-left: 30px;
+    padding-right: 30px; */
+
+    /* padding: 50px 20px 30px 40px; */
+    /* padding : top right bottom left */
+
+    /* padding: 10px 20px; */
+    /* padding : top & bottom left & right */
+    /* padding-top:100px; */
+    padding: 15px;
+    /* ====PADDING PROPERTY ENDS==== */
+
+    
+    /* ====DISPLAY PROPERTY STARTS==== */
+        /* display: inline; */
+        display: inline-block;
+        /* display: none; */
+    /* ====DISPLAY PROPERTY ENDS==== */
+
+    /* ====VISIBILITY PROPERTY START==== */
+        /* visibility: hidden; */
+
+    /* ====VISIBILITY PROPERTY ENDS==== */
+
+    width: 20%;
+}
+
+.card:hover {
+    cursor: pointer;
+    /* cursor: not-allowed; */
+    /* cursor: none; */
+}
+
+.heading {
+    border: 2px solid blue;
+}
+
+
+.image {
+    /* width: 200px; */
+    /* height: 200px; */
+    width: 100%;
+}
+
+p {
+    width: 200px;
+}
