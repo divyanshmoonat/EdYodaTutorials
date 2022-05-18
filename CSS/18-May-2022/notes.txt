@@ -1,0 +1,19 @@
+Overflow ? If anything is filled more than its capacity, then the container gets overflow
+
+overflow :
+    visible : Default property, the overflowing content is always visible outside the parent/container
+    hidden : It cropped the content and fit only the content which resided within the width of our parent/container ---OR--- the area flowing outside the container will be hidden
+    scroll : It by dfeault shows the scroll in parent/container irrespective of the size of the content
+    auto : It shows scroll only when it is necessary, it shows scroll only when the content is bigger(overflowing) than the size of its parent
+
+
+position : It says about where the content is placed on screen
+    static : Its the default value of position, it will keep the element at the default poisition as it comes by order
+    relative : It moves the item in relation to its current postition with the help of top, left, bottom and right porpoerties
+    absolute : It moves the element in reference/relation to the browser/html page but not in relatiion to its current position/parent.---OR--- It takes movement in reference it its parent only if the parent's position is non-static
+    fixes : It fixes the element at a certain position defined with the help of top, left, bottoma nd right
+    sticky : It fixes the element only when it matches with the conditions given in top, left, bottom or right else it will behave as static.
+
+shadows : 
+    text-shadow
+    box-shadow
