@@ -1,0 +1,19 @@
+.card {
+	box-shadow: 5px 5px 10px grey;
+	width: 20%;
+}
+
+.image {
+    width: 100%;
+}
+
+.description {
+	/* word-break: break-all; */
+	word-wrap: break-word;
+}
+
+.heading {
+	white-space: nowrap;
+	overflow: hidden;
+	text-overflow: ellipsis;
+}

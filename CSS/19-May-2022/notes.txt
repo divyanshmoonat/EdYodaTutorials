@@ -1,0 +1,10 @@
+Combinators? These are combinations of different css classes (or any other selector)
+
+
+    descendant selector : space => Used to style all the elements of matching selector which lies inside a parent selector
+    child selector : > => Used to select direct child (1st level children) which matches the given selector
+    general sibling selector : ~ => Used to select all the siblings of the matcing element
+    adjacent sibling selector : + => Used to select the adjacent matching element
+
+Text-Overflow
+    

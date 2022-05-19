@@ -1,0 +1,16 @@
+.g-linear {
+    border: 1px solid black;
+    height: 100px;
+    width: 200px;
+    background: linear-gradient(45deg,blue, #18c8ce, yellow, green)
+    /* background-color: blue; */
+}
+
+
+.g-radial {
+    border: 1px solid black;
+    margin: 50px;
+    height: 200px;
+    width: 300px;
+    background: radial-gradient(circle closest-corner at bottom, orange, yellow, skyblue);
+}

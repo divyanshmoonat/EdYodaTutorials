@@ -1,0 +1,17 @@
+.my-article-1 p {
+    /* decendent selector */
+    color: blue;
+}
+
+.my-article-2 > p {
+    /* > : child selector */
+    color: red;
+}
+
+.my-article-3 .introduction ~ p {
+    color: pink;
+}
+
+.my-article-4 .introduction + p {
+    color: burlywood;
+}
