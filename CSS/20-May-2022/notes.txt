@@ -1,0 +1,20 @@
+Flex? Flex is a value of display property
+
+Viewport => It is the visible area of your screen
+Height of visible screen area => Viewport Height (vh)
+Width of visible scren are => Viewport Width (vw)
+
+
+Version of CSS => v3
+Boilerplate => A file/project structure with basic configuration and files needed.
+Media Query ? => A concept used to create responsive designs
+CSS & SCSS ? => SCSS is a pre processor of CSS
+Canvas => An area where you can draw different shapes, put text on it and can convert into an image
+Meta? 
+
+Pseudo Classes => Represented by :
+
+ex :hover
+    :active
+    :link
+    :focus

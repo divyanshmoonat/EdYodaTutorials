@@ -1,0 +1,26 @@
+.parent {
+    background-color: aquamarine;
+    /* padding: 20px; */
+    /* height: 100vh; */
+    display: flex;
+    /* justify-content: center; */
+    justify-content: space-between;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+
+.child {
+    background-color: beige;
+    margin:20px;
+}
+
+
+.sub-nav {
+    /* border: 2px solid black; */
+    display: flex;
+    justify-content: space-between;
+}
+
+.login-actions {
+    display: flex;
+}
