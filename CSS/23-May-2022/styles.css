@@ -1,0 +1,32 @@
+.parent {
+    border: 1px solid red;
+    padding: 20px;
+}
+
+.parent:hover {
+
+}
+
+.child {
+    width: 50px;
+    height: 50px;
+    display: inline-block;
+    margin-right: 20px;
+    background-image: url('white-tick.jpg');
+}
+
+.child:hover {
+    background-image: url('blue-tick.jpg');
+}
+
+.A {
+    background-color: black;
+    display: inline-block;
+}
+
+.B {
+    background-color: blue;
+    padding-bottom: 20px;
+    border-bottom: 5px solid green;
+    /* display: none; */
+}
