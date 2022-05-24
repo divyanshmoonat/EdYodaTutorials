@@ -1,0 +1,30 @@
+Transform? => It is the change of element
+	rotate : To roate an element with a certain angle
+	skew : To flip the element on certain angle
+	translate : To move the element to a different co ordinate in xy plane
+	scale : To zoom the element
+
+Animation => Moving the elements within some time frame
+    keyframes : Moments defined in % (frames of a video)
+	animation-name : Name of the animation defined in @keyframe
+	animation-duration : Time duration for which the animation is played
+	animation-delay : To add the delay in animation when user lands on the page (page is refreshed)
+
+Pseudo => Fake (Which is not real)
+
+pseudo classes
+	hover
+	focus
+	disabled
+	first-of-type
+	last-of-type
+	nth-of-type
+	fist-child
+	last-child
+	nth-child
+pseudo elements
+	first-line
+	first-letter
+	selection
+	before
+	after

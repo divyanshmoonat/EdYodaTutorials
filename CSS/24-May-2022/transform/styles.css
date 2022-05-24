@@ -1,0 +1,32 @@
+.container {
+    width: 150px;    
+    height: 250px;
+    border: 2px solid black;
+    margin: 100px;
+    background-color: aquamarine;
+}
+
+.t-rotate {
+    /* CSS TRANSFORM PROPERTY STARTS */
+    transform: rotate(50deg);
+    /* transform: rotate(30deg,30deg); */
+
+    /* CSS TRANSFORM PROPERTY ENDS */
+}
+
+.t-skew {
+    transform: skew(30deg);
+}
+
+
+.t-translate {
+    transform: translate(13px,58px);
+}
+
+.t-scale {
+    /* transform: scale(); */
+}
+
+.t-scale:hover {
+    transform: scale(1.2);
+}

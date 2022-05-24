@@ -1,0 +1,44 @@
+.container {
+    width: 200px;
+    height: 200px;
+    background-color: azure;
+    border: 2px solid black;
+
+    animation-name: move-box-on-screen;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+
+    animation-delay: 5s;
+
+    /* animation: move-box-on-screen 5s infinite; */
+}
+
+.container:hover {
+    animation-play-state: paused;
+}
+
+@keyframes move-box-on-screen {
+    /* O SECONDS */
+    0% {
+        background-color: red;
+        /* transform: translate(300px,0px); */
+    }
+
+    /* 5 SECONDS */
+    50% {
+        background-color: blue;
+        /* transform: translate(300px,300px); */
+    }
+
+    /* 7.5 SECONDS */
+    75% {
+        background-color: green;
+        /* transform: translate(0px, 300px); */
+    }
+
+    /* 10 SECONDS */
+    100% {
+        background-color: yellow;
+        /* transform: translate(0px, 0px); */
+    }
+}
