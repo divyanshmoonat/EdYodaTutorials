@@ -1,0 +1,18 @@
+Pseudo Elements ? => Elements which are not real are called Pseudo Elements
+
+	first-line => Styles get applied on the first line of the content
+	first-letter => Styles get applied on the first letter of the content
+	selection => Styles get applied on the selected content
+	before => To keep any content before a set of content e.g p
+	after => To keep any content after a set of content e.g p
+
+
+
+Responsive Designs ? 
+
+Viewport => Visible area of our screen
+
+Media Query => Helps us in writing CSS for different screen sizes
+
+
+Breakpoints => Different screen sizes to which we apply media query

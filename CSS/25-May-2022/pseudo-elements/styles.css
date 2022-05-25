@@ -1,0 +1,21 @@
+.para-1::first-line {
+    color: blue;
+    font-size: 20px;
+}
+
+.para-2::first-letter {
+    font-size: 40px;
+}
+
+.para-3::selection {
+    color: red;
+    background-color: blue;
+}
+
+.para-4::before {
+    content: " > ";
+}
+
+.para-5::after {
+    content: "!";
+}

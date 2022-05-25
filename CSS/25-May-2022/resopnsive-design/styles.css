@@ -1,0 +1,14 @@
+.container{
+    border: 1px solid black;
+    height: 200px;
+    width: 600px;
+    background-color: azure;
+}
+
+@media screen and (max-width: 320px) {
+    /* STYLES APPLIED TO SCREEN SIZED FROM 0 TO 320 */
+    .container {
+        width: 150px;
+        background-color: black;
+    }
+}
