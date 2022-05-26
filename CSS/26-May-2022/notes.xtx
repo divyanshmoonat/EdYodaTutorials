@@ -1,0 +1,3 @@
+Z-Index => Sets the elements in layer, it is used to send things on back or bring them on front.
+
+Parallax effect : background-attachmet : fixed;
