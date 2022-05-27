@@ -1,0 +1,41 @@
+.container {
+    width: 200px;
+    height: 200px;
+    background-color: teal;
+    box-shadow: 5px 5px 5px grey;
+
+    animation-name: move-box-on-screen;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+
+    /* transition-timing-function: ease-in-out;
+    animation-fill-mode: backwards ; */
+
+    transition-timing-function: ease-in;
+    animation-fill-mode: forwards ;
+    animation-direction: alternate;
+}
+
+
+@keyframes move-box-on-screen {
+    0% {
+        transform: translate(0px,0px);
+        background-color: yellow;
+    }
+    25% {
+        transform: translate(300px,0px);
+        background-color: red;
+    }
+    50% {
+        transform: translate(300px,300px);
+        background-color: green;
+    }
+    75% {
+        transform: translate(0px,300px);
+        background-color: blue;
+    }
+    100% {
+        transform: translate(0px,0px);
+        background-color: rgb(245, 27, 208);
+    }
+}

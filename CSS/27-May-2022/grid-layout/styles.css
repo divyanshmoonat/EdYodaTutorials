@@ -1,0 +1,32 @@
+header {
+    height: 64px;
+    background-color: antiquewhite;
+    grid-area: header;
+}
+
+main {
+    height: 80vh;
+    background-color: aqua;
+    grid-area: main;
+}
+
+aside {
+    height: 90vh;
+    background-color: blueviolet;
+    grid-area: aside;
+}
+
+footer {
+    height: 64px;
+    background-color: black;
+    color: white;
+    grid-area: footer;
+}
+
+.container {
+    display: grid;
+    grid-template-areas: 
+    'header header header header'
+    'main main main aside'
+    'footer footer footer aside';
+}

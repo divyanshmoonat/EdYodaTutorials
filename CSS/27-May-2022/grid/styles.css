@@ -1,0 +1,18 @@
+.container {
+    display: grid;
+    /* grid-template-columns: 200px 200px 200px 200px; */
+    grid-template-columns: repeat(5,100px);
+    /* grid-row-gap: 20px;
+    grid-column-gap: 20px; */
+    grid-gap: 20px 20px;
+
+    justify-content: space-between;
+}
+
+.card {
+    border: 1px solid black;
+}
+
+img {
+    width: 100%;
+}

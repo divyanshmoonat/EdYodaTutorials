@@ -1,0 +1,51 @@
+.navbar{
+    display: flex;
+    /* justify-content: space-between; */
+    /* background-color: #393636; */
+}
+
+a {
+    margin:0px 5px;
+    color: white;
+    text-decoration: none;
+}
+
+.logo {
+    font-size: 36px;
+    font-weight: bold;
+    /* color: black; */
+    /* margin-left: 10px; */
+    cursor: pointer;
+    position: relative;
+    top: 8px;
+    padding: 19px;
+    width: 15%;
+}
+
+
+.sub-menu {
+    background-color: #393636;
+    width: 85%;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+
+@media screen and (min-width: 600px) and (max-width:920px){
+    .logo {
+        font-size: 25px
+    }
+}
+
+@media screen and (min-width: 320px) and (max-width: 599px) {
+    .logo {
+        display: none;
+    }
+    .sub-menu {
+        width: 100%;
+    }
+
+
+    
+}
