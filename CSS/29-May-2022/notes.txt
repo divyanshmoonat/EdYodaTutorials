@@ -1,0 +1,13 @@
+Framework? A set of ready made things.
+Things => Set of CSS classes
+
+Bootstrap => Its a CSS framework
+
+Bootstrap has divided our scren into 12 equal parts called as columns
+
+1 Row => 12 Columns
+
+When we write media queries we define min and max width of our screen, these px are called as breakpoints
+
+
+.row => It takes 100% width of its parent and divide it in 12 equal columns

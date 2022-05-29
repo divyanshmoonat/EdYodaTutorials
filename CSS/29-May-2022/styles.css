@@ -1,0 +1,39 @@
+.my-div {
+    background-color: teal;
+    height: 10vh;
+}
+
+header {
+    background-color: green;
+}
+
+main {
+    background-color: yellow;
+    height: 80vh;
+}
+
+aside {
+    background-color: aqua;
+    height: 80vh;
+}
+
+footer {
+    background-color: red;
+}
+
+.bg-color-red {
+    background-color: red;
+}
+
+.bg-color-yellow {
+    background-color: yellow;
+}
+
+.my-card {
+    background-color: blue;
+    border: 1px solid black;
+}
+
+.my-offers {
+    margin: 40px;
+}
