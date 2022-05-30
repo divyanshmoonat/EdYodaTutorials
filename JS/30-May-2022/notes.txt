@@ -1,0 +1,61 @@
+JavaScript?
+FrontEnd => Any page/design/functionality which runs on user's browser (Client)
+BackEnd => Any functionality written in any language which runs on server. (Server)
+
+JavaScript is a scripting language which works on both FrontEnd as well as on BackEnd
+
+
+FrontEnd JS Libraries/Framewor : React JS (Libraries), Angular (Franework), Vue JS etc
+BackEnd JS : Node JS with Express JS, Meteor JS, Backbon JS
+
+Variables? Variable is used to store/hold any value in it
+Maths : x, y
+
+Naming of Variables : 
+    Ways : 
+        1. Camel Case : productPrice, userName, firstName // JavaScript, Java, Python
+        2. Pascal Case : ProductPrice, UserName, FirstName // .net (C#)
+        3. Snake Case : product_price, user_name, first_name // MySql
+    Rules : 
+        1. Can't give space in a variable name
+        2. Variable name can contain aplhabets, number, _ and $
+        3. Variable name can't start with a number
+        4. Reserved Word/Keyword are not allowed in naming a variable.
+        Variable names are always case sensitive
+    NOTE : ALWAYS GIVE MEANINGFUL NAMES TO VARIABLES
+Operator => A symbol which operates 2 (or more) different variables or a variable and a value
+= => Assignment Operator
+
+    1. Arithmatic Operator : +, -, *, /
+    2. Logical Opertor : && (and) , || (or) , ! (not)
+    3. Comparision Operator : <(less than), >(greather than) , <=, (less than on equal to), >=, (greater than or equal to)
+
+Expression : It is a combination of variables and operator which evaluates(results) in a value
+
+Framework => Set of pre defined classes and functionalties. (Rich / Extensive set of functionalities)
+Libraires => Set of pre defined classes and functionalties. (Limited set of functionalities)
+
+
+2 Types of Code writers : 
+    1. Code Editor : Notepad, Notepad++, VS Code, Sublime Text editor etc
+    2. IDE (Integrated Development Environment) : NetGeans, InteliJ, Eclipse etc
+
+
+Alert : A way to get user's attention on the browser
+Confirm : Give a option between yes/no to the user
+Propmt : To take any input from the user
+
+Data Types : The type of data that variables holds.
+    1. Primitive Data Types : 
+        a. numbers : integers, floating point numbers, NaN : Not a number, Infinity
+        b. string : Any text (single quote, double quote)
+        c. boolean : true or false
+        d. null : Special value when we assign empty value to a variable
+        e. undefined : When we don't give any value to varialbe
+    2. Reference (Non-Primitive) Data Types :
+        a. object
+        b. array 
+
+Control Flow : 
+Conditions, Repetitions
+if else, loops
