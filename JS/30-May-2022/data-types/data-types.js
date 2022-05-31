@@ -28,4 +28,14 @@ console.log(typeof(sum));
 var divisionResult = num1 / 0;
 console.log(typeof(divisionResult));
 
+
+var num1 = 10;
+var num2 = 4;
+
+var newResult = num1/num2;
+
+console.log(newResult);
+
+var modulusResult = num1 % num2;
+console.log(modulusResult);
 // document.write('Hello from JavaScript');

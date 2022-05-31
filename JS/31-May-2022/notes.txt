@@ -1,0 +1,32 @@
+Strings? => String is a character of collection of charcters
+
+Strings can be represented using Single('') or Double Quotes ("")
+
+E.g "John", "A", "B", "John-Doe", "john@example.com", "9876543210" etc
+'John', 'A', 'B', 'John-Doe', 'john@example.com', '9876543210'
+
+String methods : 
+
+slice : Takes negative values (Starts counting or slicing from the end of the string)
+substring : Does not takes negative values
+
+
+
+NOTE : Whenever we call a method/function, we use () brackets after method name
+
+
+Null vs Undefined : 
+
+Truthy and Falsy : 
+List of Falsy Values : 
+    false
+    null
+    undefined
+    '' //empty string
+    0
+    NaN
+
+
+Control Flow : 
+
+Ternary Operator (?) : Shorthand way to write if else block
