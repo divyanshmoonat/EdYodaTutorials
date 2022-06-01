@@ -1,0 +1,6 @@
+Arithmetic Operators - DONE
+Assignment Operators - DONE
+Comparison Operators - DONE
+Logical Operators - DONE
+Coercion - Implicit
+Switch
