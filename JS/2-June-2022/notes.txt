@@ -1,0 +1,27 @@
+Switch Case => It is similart to if else conditional statement
+
+
+Objects => A collection of key value paris, that consists data in it, and an object represents a set of data about a particular entity.
+
+person =>
+    firstName
+    lastName
+    age
+    height
+    gender
+    address
+        addressLine1
+        addressLine2
+        city
+        state
+        country
+        zipCode
+    weight
+    contactNumber
+
+fruit =>
+    name
+    color
+    price
+    taste
+    weight
