@@ -1,0 +1,4 @@
+Template String => A way to write strings in JS
+
+JS Comparision Table : 
+https://dorey.github.io/JavaScript-Equality-Table/
