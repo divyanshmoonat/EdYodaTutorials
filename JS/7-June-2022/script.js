@@ -133,6 +133,15 @@ users.splice(3, 1, "Abraham");
 // console.log(prices.sort((a, b) => a - b));
 
 
-var names = ["B","A", "C", "A", "Z", "D", "G"];
+// var names = ["B","A", "C", "A", "Z", "D", "G"];
 
-console.log(names.sort());
+// console.log(names.sort());
+
+
+var names = ["B","A", "C", "A", "Z", "D", "G"];
+console.log(names);
+
+
+// console.log(names.includes('Z'));
+// console.log(names.includes('Y'));
+console.log(names.includes('d'));

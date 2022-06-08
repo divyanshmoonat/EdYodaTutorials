@@ -1,0 +1,16 @@
+Loop ?
+Looping is a concept which is used to perform repetitive code operations.
+
+Types of Loop : 
+    1. while
+    2. for
+
+When loop never stops exection its called as infinite loop.
+
+Iteration : Each repetition is called iteration.
+
+Break : It stops or breaks our loop in between its execution.
+Continue : Skip an interation in a loop.
+
+
+JSON (JavaScript Object Notation) : Array of Objects
