@@ -1,0 +1,25 @@
+Functions?
+A set or block of code assosiated with a name.
+
+1. Function Declaration : To decalre a function with a name and give code block to it for some functionlity.
+
+2. Function Calling : Call a function by its name.
+
+
+Parameters : These are the values in the backetes of FUNCTION DEFINITION.
+
+Arguments : These are the actual values passed to the FUNCTION CALL.
+
+
+
+Scope of a Variables : 
+    1. Global : Can be accessed througout the program.
+    2. Local : Can be accessed inside the function/block of code only.
+
+Hoisting : Moving a variable declaration to the top of its scope.
+Q. Which values are hoisted in JS.
+A. var and functions are hoisted in JS.
+
+JS Engine Executes code in 2 phases : 
+1. Memory Allocation
+2. Code Execution
