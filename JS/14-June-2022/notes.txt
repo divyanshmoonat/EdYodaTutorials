@@ -1,0 +1,40 @@
+DOM => Document Object Model
+                html
+        head            body
+script meta title     h1 p div div
+
+
+
+HTML Tags/Nodes/HTML Element
+
+
+Selectors (CSS)
+ID => #
+Class => .
+Tag => Tag Name
+
+#head {
+    color: blue;
+}
+
+.description {
+    color: red;
+}
+
+div {
+    color: green;
+}
+
+
+Methods in DOM to fetch/search/find an Node in HTML Page : 
+getElementById() => Used to find element with the help of ID.
+getElementsByClassName() => Used to find elemnts with the help of class name.
+getElementsByTagName() => Used to find the elements with the help of tagname
+
+.sample span {
+    color: blue;
+}
+
+.sample > span {
+    color: blue;
+}
