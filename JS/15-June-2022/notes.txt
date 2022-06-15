@@ -1,0 +1,5 @@
+Event : Anything happening on a place at a certain time
+
+JS Events : 
+
+click
