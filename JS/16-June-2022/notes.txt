@@ -1,0 +1,16 @@
+Mouse Events : 
+mousedown
+mouseup
+mousemove
+mouseenter
+mouseleave
+mouseover
+mouseout
+
+Create HTML Elements in JS
+
+document.createElement() => Creates new Element
+
+ELEMENT.appendChild(<NEW ELEMENT>) => Add the child in the parent element
+
+ELEMENT.remove() => Delete the selected element.
