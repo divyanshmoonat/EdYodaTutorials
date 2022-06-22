@@ -74,3 +74,6 @@ form.addEventListener("submit",onSubmitHandler);
 // Exercise, home work below
 // form.addEventListener('focus');
 // form.addEventListener('blur');
+
+
+document.addEventListener('resize',)

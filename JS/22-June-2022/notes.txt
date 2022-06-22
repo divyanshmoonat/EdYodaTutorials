@@ -1,0 +1,31 @@
+BOM (Browser Object Model), it acts as a super set of DOM (Document Object Model)
+
+
+DOM represents our HTML page in the form of a tree. (document)
+
+BOM represents browser window. (window)
+
+BOM
+    - document (DOM)
+    - screen -> width, height, availWidth, availHeight
+    - navigator -> device controls, geolocation, clipboard etrc
+    - location -> current location, base url/origin url, porotocol info
+    - history
+    - localStorage
+
+    btoa() => Encoded data into base64 format
+    atob() => Decodes the data from base64 to plain text
+
+
+
+negative infinity to positive infity (Numerical Superset)
+
+Whole numbers (Subset)
+Natural number (Subset)
+Positive number (Subset)
+Negative number (Subset)
+
+
+HTTP(S) => HyperText Transfer Protocol Secure
+
+SSL => Secure Socket Layer
