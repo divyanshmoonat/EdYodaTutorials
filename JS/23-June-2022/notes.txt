@@ -1,0 +1,83 @@
+AJAX : Asynchronous JavaScript and XML
+AJAX helps us in sending the data from/to, frontend/backend
+client/server.
+
+XML : Extensible Markup Language
+<user-data>
+    <fname>John</fname>
+    <lname>Doe</lname>
+</user-data>
+
+JSON : JavaScript Object Notation
+userData: {
+    fname: John,
+    lname: Doe
+}
+
+1. Send data to the server
+2. Get the data from the server
+
+
+Note : To get the data from the server we need a URL
+This URL is called as API end point.
+
+
+Methods to get/send data to an API End point 
+E.g of API END point : https://jsonplaceholder.typicode.com/todos/
+
+Methods : 
+1. GET : Used to get some data from an API end point
+2. POST : Used to send data to server to create/save something. 
+3. PUT/PATCH : Used to request a change in data at the server.
+4. DELETE : Used to delete some data on the server. 
+
+API : Application Programming Interface
+
+REST API : Representational State Transfer Application Programming Interface
+
+While working with AJAX, we need 2 important things
+1. API end point
+2. Method (HTTP Method)
+
+
+HTTP Status Code :
+
+Success Codes 2xx
+200 : Ok
+201 : Created
+
+Failure Code (Client) 4xx
+400 : Bad Request
+401 : Unauthorized
+403 : Forbidden
+404 : Not Found
+#429 : Limit Reached 
+
+
+Server Failure (Server) 5xx
+500 : Internal Server Error
+502 : Bad Gateway
+503 : Service Unavailable
+504 : Gateway Timeout
+
+
+AJAX Properties : 
+readyState : Which gives us information about the state of our api call
+States : 
+1 : Not yet sent / Unsent : Order is placed, not yet dispatched
+2 : Opened : Order is picked up by the courier
+3 : Awaiting/Loading : Order is in transit
+4 : Done (Success/Failure) : Order is delivered
+
+
+200 : My order is correct and received
+400 : My order is damanged
+404 : Empty box received
+
+readyStateChange : This is an event which triggers everytime when there is a change in readyState
+
+
+
+Conversion between JSON/String : 
+JSON to String : JSON.stringify(input);
+String to JSON : JSON.parse(input);
