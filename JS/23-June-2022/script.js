@@ -16,10 +16,28 @@ function createToDoList(list) {
 }
 
 function onClickHandler() {
-  console.log("OnClick Handler Called");
+  //   console.log("OnClick Handler Called");
 
-  function readyStateChangeHandler(e) {
-    console.log("Ready State Changed", e.target.readyState);
+  //   function readyStateChangeHandler(e) {
+  //     // console.log("Ready State Changed", e.target.readyState);
+  //     console.log("Data received by API");
+  //     if (e.target.readyState === 4) {
+  //       if (e.target.status === 200) {
+  //         console.log("Request completed successfully");
+  //         var todos = JSON.parse(e.target.response);
+  //         createToDoList(todos);
+  //       } else if (e.target.status === 404) {
+  //         console.log("Error in request, NOT FOUND");
+  //       } else {
+  //         console.log("Request failed");
+  //       }
+  //     //   console.log("Request completed", e.target);
+  //     }
+  //   }
+
+  function onRequestCompleteHandler (e) {
+    // console.log("Ready State Changed", e.target.readyState);
+    console.log("Data received by API");
     if (e.target.readyState === 4) {
       if (e.target.status === 200) {
         console.log("Request completed successfully");
@@ -30,13 +48,23 @@ function onClickHandler() {
       } else {
         console.log("Request failed");
       }
-      console.log("Request completed", e.target);
+      //   console.log("Request completed", e.target);
     }
   }
+
+  console.log("Before calling API");
   var request = new XMLHttpRequest();
-  request.open("GET", "https://jsonplaceholder.typicode.com/todos/");
+  request.open("GET", "http://localhost:5000/todo",false);
   request.send();
-  request.addEventListener("readystatechange", readyStateChangeHandler);
+//   request.addEventListener("readystatechange", onRequestCompleteHandler);
+  console.log(request);
+  if(request.readyState === 4) {
+    if(request.status === 200) {
+        var todos = JSON.parse(request.response);
+        createToDoList(todos);
+    }
+  }
+  console.log("After calling API");
 }
 
 var btn = document.getElementById("getToDos");
