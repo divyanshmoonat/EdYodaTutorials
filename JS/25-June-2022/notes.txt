@@ -1,0 +1,23 @@
+BOM : Browser Object Model
+
+1. History Object :
+    length : Shows us the number of pages opened in a tab
+    back() : Takes back by one step
+    forward() : Takes forward by one step
+    go() : Takes an integer as an input and takes back and forward by n pages. For going back provide a negative value and for going forward provide a positive value, passing 0 will keep us on the same page
+    state : Used to pass data from URL to another on the same base URL/domain. <WILL COVER THIS PART IN REACT> 
+2. Local Storage
+    setItem(): Used to store data in local storage
+    getItem(): Used to get data from local storage
+    removeItem(): Used to delete/remove the data from local storage.
+
+
+Try-Catch : Used to handle errors in JS
+Syntax : try {
+    // Code which might get an error
+} catch (error) {
+    // Code to print a user friendly message and let the exectuion continue further
+}
+
+Throwing an error : Used to throw an error manually in case if something is wrong in a method/function.
+Syntax : throw new Error(ERROR_MESSAGE);
