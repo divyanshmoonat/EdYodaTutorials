@@ -1,0 +1,35 @@
+OOP (Object Oriented Programming)
+In JS, Object is a collection of key-value pairs
+E.g
+person = {
+    fName: "John",
+    lName: "Doe",
+    address: "123,ABC Street",
+    getAddress: function () {
+        return "123, ABC Street";
+    }
+}
+
+person.address;
+person.fName;
+person.getAddress();
+
+
+Constructor Function : The fn starts with a Capital Letter in its name and take initial values. E.g function Car(wheels, color, engineType,cc) {
+
+}
+
+Constructor : It is a function which initializes the values of a function/class.
+new : Keyword is used to create instances of a type
+
+
+this? => this keyword represents context (Where the peice of code/variable/function lives)
+
+In OOP we create 2 type of functions to read/update the values in side an object, i.e getter and setter
+
+Types of programming in JS : procedural programming and Object Oriented Programming, Functional Programming
+
+
+Real Life Example : 
+I want to change the color of car object.
+I want to change the color of this object.
