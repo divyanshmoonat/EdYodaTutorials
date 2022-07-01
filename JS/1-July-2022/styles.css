@@ -1,0 +1,27 @@
+.img-card {
+    display: flex;
+    flex-direction: column;
+    box-shadow: 5px 5px 5px grey;
+    margin: 20px;
+}
+
+.img-card img {
+    width: 100%;
+}
+
+.img-card span {
+    padding: 5px;
+}
+
+section {
+    display: grid;
+    justify-content: space-between;
+    grid-template-columns: auto auto auto auto auto;
+}
+
+
+.load-more-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

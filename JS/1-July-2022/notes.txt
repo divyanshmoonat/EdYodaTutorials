@@ -1,0 +1,31 @@
+Regex : Regular Expressions
+
+Regex ? It is a pattern which helps us in finding/searching/identifying a word/letter in a string.
+
+
+The cat eat rats which are fat.
+
+Syntax /<REGEX>/
+E.g /T*/
+
+
+Symbols in Regex
+
+* => 0 or more occurances
++ => 1 or more occurances
+? => Optional
+. => Anything
+
+\w => Anything which is a word
+\W => Anything which is not a word
+\s => Anything which is a space
+\S => Anything which is not a space
+\d => Anything which is a digit
+\D => Anything which is not a digit
+
+{minLength, maxLength} => for min and max length
+[] => Group with a range
+
+Options
+g => Global
+i => Case insensitive
