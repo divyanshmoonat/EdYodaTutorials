@@ -1,0 +1,13 @@
+3 ways to declare a variables : 
+
+var => From v1 till now
+
+ES6 (2015)
+let
+const
+
+
+
+Prototype : It is an object where all the mthods of an object/type of object is stored.
+
+Prototype chaining => When you call a method, JS searches this method in current prototype, if its not available it goes further to check the method and so on..
