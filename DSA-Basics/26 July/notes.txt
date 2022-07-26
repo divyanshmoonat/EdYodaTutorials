@@ -1,0 +1,40 @@
+DSA => Data Structures and Algorithm
+
+const userNames = 'John';
+const userNames = ['John','Jane']
+John
+Jane
+Abraham
+
+Algorithm => Step by step procedure to solve a problem.
+function sum(num1,num2) {
+    const total = num1+num2;
+    return total;
+}
+
+
+1. Create a function with name sum
+2. Take 2 arguments num1 and num2
+3. Add them using + operator
+4. Store the result in a variable "total"
+5. Return the value of total variable.
+
+
+Stack ? => A collection of items kept on top of each other.
+
+Last item to be kept in stack is the first one to come out of the stack (LIFO => Last In First Out)
+
+We'll take help of ARRAYS to create stack.
+
+
+
+FIFO => First In First Out ---> Queues
+
+
+
+Class : Collection of variables and methods/function.
+
+Variable : Data members 
+Method/Function : Member function
+
+Class : Collection of data members and member function.
