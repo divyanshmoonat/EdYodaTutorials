@@ -1,0 +1,8 @@
+Queues? 
+A linear data structure, where items are kept to be processed.
+
+Elements of Queue :
+1. Front : The starting position of the queue
+2. Back : The ending position of the queue
+
+Working Principle of Queue : FIFO (First In First Out)
