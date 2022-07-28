@@ -1,0 +1,1 @@
+Linked List? A linear data structure where the items are linked to each other in a sequential manner.
