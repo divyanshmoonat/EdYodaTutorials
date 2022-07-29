@@ -1,1 +1,8 @@
 Linked List? A linear data structure where the items are linked to each other in a sequential manner.
+
+
+Types of Linked List : 
+    1. Singly Linked List : Where each node has reference to single element (next element)
+    2. Doubly Linked List : Where each node has reference to previous and next nodes.e
+    3. Circular Linked List : Next of last element points to the first element.
+    4. Doubly Circular Linked List : Next of last element points to the first element and previous of first element points to the last element.
