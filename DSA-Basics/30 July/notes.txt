@@ -1,0 +1,102 @@
+Algorithms? Step by step process to solve a particular problem.
+Q. Write a program to find the sum of first n natural numbers.
+
+function addNaturalNumbers(n) {
+    let total = 0; ---> 1
+    for(let counter=1;counter<=n;counter++) {
+        total += counter;  ---> n
+    }
+    return total; ---> 1
+}
+
+=> 1 + n + 1
+=> 2 + n
+=> 2 + 1,00,00,000
+Complexity : 2 + n
+Complexity : O(n)
+
+function addNaturalNumbers2(n) {
+    return n*(n+1)/2; ---> 1
+}
+
+Complexity : O(1)
+
+E.g => n = 4
+1+2+3+4 => 10
+
+E.g => n = 5
+1+2+3+4+5 => 15
+
+
+To compare the algorithms we use 2 parameters
+    1. Time
+    2. Space
+Less the space and time, better the algorithm.
+
+Complexity
+    1. Time Complexity?
+    2. Space Complexity
+
+Prob : I forgot my car keys while going out.
+
+Best Case (Ω) : Found key in the first drawer I checked.
+
+Average Case (θ) : Found key in any other drawer in between first and last.
+
+Wrost Case (Big O) : Found key in the last drawer I checked.
+
+
+Big O complexity is based on input given to the algorithm.
+
+
+function xyz(n) {
+    for() {
+        for() {
+
+        }
+    }
+}
+
+function printPyramind(n) {
+    for() {
+        for() {
+
+        }
+    }
+}
+
+Outer Loop n
+Inner Loop n
+
+Total Iterations : 3 x 3 = 9
+4 x 4 = 16
+12 x 12 = 144
+
+n x n = n^2
+
+
+Best to Worst
+
+1 => O(1) : Constant Complexity
+2 => O(log n) : Logarithmic Complexity
+3 => O(n) : Linear Complexity
+-----
+4 => O(n^2) : Quadratic Complexity
+5 => O(n^3) : Cubic Complexity
+6 => O(2^n) : 
+7 => O(n!) : Factorial Complexity
+
+Q. In a sorted array of intergers from 1 to 100, find if 23 exists
+
+
+1,2,3,4,5,6,7,8,...100
+
+const person = {
+    fName : "John"
+}
+
+typeof person.fName;
+typof "John"
+
+names.length;
+typeof 5
